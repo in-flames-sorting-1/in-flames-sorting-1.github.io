@@ -1,14 +1,22 @@
 const RAW_ALBUMS = [15]
   // TODO: replace this placeholder with the real In Flames catalog. As as many as you need to complete the catalog.
   {
-    id: "Lunar-Strain",
+    id: "lunar-strain",
     title: "Lunar Strain",
     year: 1994,
-    cover: "LunarStrain.jpg",
+    cover: "img/album/LunarStrain.jpg",
     isCover: false,
     isSingle: false,
-    songs: [Behind Space, Lunar Strain, Starforsaken, Dreamscape, Everlost Pt1, Everlost Pt2, Hårgalåten, In Flames, Upon An Oaken Throne, Clad In Shadows]
+    songs: [
       { title: "Behind Space" },
+      { title: "Starforsaken" },
+      { title: "Dreamscape" }, 
+      { title: "Everlost Pt. 1" },
+      { title: "Everlost Pt. 2" }, 
+      { title: "Hårgalåten" },
+      { title: "In Flames" }, 
+      { title: "Upon An Oaken Throne" },
+      { title: "Clad In Shadows", }
     ],
   },
 ];
