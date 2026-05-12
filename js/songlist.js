@@ -1,14 +1,14 @@
-const RAW_ALBUMS = [
+const RAW_ALBUMS = [15]
   // TODO: replace this placeholder with the real In Flames catalog. As as many as you need to complete the catalog.
   {
-    id: "placeholder-album",
-    title: "Placeholder Album",
-    year: 2024,
-    cover: "img/albums/placeholder.jpg",
+    id: "Lunar-Strain",
+    title: "Lunar Strain",
+    year: 1994,
+    cover: "LunarStrain.jpg",
     isCover: false,
     isSingle: false,
-    songs: [
-      { title: "Placeholder Song" },
+    songs: [Behind Space, Lunar Strain, Starforsaken, Dreamscape, Everlost Pt1, Everlost Pt2, Hårgalåten, In Flames, Upon An Oaken Throne, Clad In Shadows]
+      { title: "Behind Space" },
     ],
   },
 ];
