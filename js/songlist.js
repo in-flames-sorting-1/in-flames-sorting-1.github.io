@@ -1,5 +1,4 @@
-const RAW_ALBUMS = [15]
-  // TODO: replace this placeholder with the real In Flames catalog. As as many as you need to complete the catalog.
+const RAW_ALBUMS = [
   {
     id: "lunar-strain",
     title: "Lunar Strain",
@@ -20,8 +19,50 @@ const RAW_ALBUMS = [15]
     ],
   },
 ];
-
-
+  {
+    id: "subterranean"
+    title: "Subterranean"
+    year: 1995,
+    cover: "img/album/Subterranean.jpg"
+    isCover: false,
+    isSingle: false,
+    song: [
+      { title: "Stand Ablaze" },
+      { title: "Ever Dying" },
+      { title: "Subterranean" },
+      { title: "Timeless" },
+      { title: "Biosphere" }, 
+      { title: "Dead Eternity" },
+      { title: "The Inborn Lifeless" },
+      { title: "Eye Of The Beholder" }, 
+      { title: "Murders In The Rue Morgue" },
+    ],
+  },
+];
+  {
+  id: "the-jester-race",
+  title: "The Jester Race",
+  year: 1996,
+  cover: "img/album/TheJesterRace.jpg"
+  isCover: false,
+  isSingle: false,
+  songs: [
+      { title: "Moonsheild" },
+      { title: "The Jester's Dance" },
+      { title: "Artifacts Of The Black Rain" }, 
+      { title: "Graveland" },
+      { title: "Lord Hypnos" }, 
+      { title: "Dead Eternity" },
+      { title: "The Jester Race" },
+      { title: "December Flower" }, 
+      { title: "Wayfaerer" },
+      { title: "Dead God In Me" },
+      { title: "Goliaths Disarm Their Davids" },
+      { title: "Acoustic Medley" },
+    ],
+  },
+];
+    
 // NO WORK IS NECESSARY BELOW THIS LINE
 
 // Array.sort is stable, so albums sharing a year preserve their RAW_ALBUMS order.
