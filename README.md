@@ -1,1 +1,30 @@
-# in-flames-sorting-1.github.io
+# In Flames Song Sorter
+
+https://in-flames-sorting-1.github.io/
+
+# Adding albums and songs
+
+All song data lives in [js/songlist.js](./js/songlist.js). One album is one object in the `RAW_ALBUMS` array.
+
+Follow the steps below to add or modify albums and songs:
+
+1. **Save the cover art**
+   * Drop the cover image into [img/albums/](./img/albums). Square aspect ratio is best (the UI crops to 1:1). PNG or JPG both work. Use a short, descriptive filename in camelCase, e.g. `solarStrain.jpg`. See the table in [Image sizes](#image-sizes) below for recommended sizes.
+2. **Add a new album or update songs**
+   * See [./js/README.md](./js/README.md) for instructions
+
+3. **Test your changes**
+   * Run `npm start` to open the web browser to test your changes. Allow Node.js if prompted. If you get an error, see [Testing locally](.github/CONTRIBUTING.md#testing-locally).
+
+4. **Push your changes to GitHub**
+   * No code changes needed elsewhere. Push your changes to GitHub and you're done.
+
+# Changing the accent color
+
+The whole accent palette derives from a single `--accent` hex via CSS `color-mix()`. To re-theme:
+
+```sh
+node scripts/set-accent.mjs "#c8102e"
+```
+
+This updates `--accent` in `css/style.css` and the `theme-color` meta tag in `index.html`. Safe to run repeatedly while iterating.
