@@ -38,13 +38,13 @@ const RAW_ALBUMS = [
     ]
   },
   {
-  id: "the-jester-race",
-  title: "The Jester Race",
-  year: 1996,
-  cover: "img/album/TheJesterRace.jpg",
-  isCover: false,
-  isSingle: false,
-  songs: [
+    id: "the-jester-race",
+    title: "The Jester Race",
+    year: 1996,
+    cover: "img/album/TheJesterRace.jpg",
+    isCover: false,
+    isSingle: false,
+    songs: [
       { title: "Moonsheild" },
       { title: "The Jester's Dance" },
       { title: "Artifacts Of The Black Rain" }, 
@@ -60,13 +60,13 @@ const RAW_ALBUMS = [
     ]
   },
   {
-  id: "whoracle",
-  title: "Whoracle",
-  year: 1997,
-  cover: "img/album/Whoracle.jpg",
-  isCover: false,
-  isSingle: false, 
-  songs: [
+    id: "whoracle",
+    title: "Whoracle",
+    year: 1997,
+    cover: "img/album/Whoracle.jpg",
+    isCover: false,
+    isSingle: false, 
+    songs: [
       { title: "Jotun" },
       { title: "Food For The Gods" },
       { title: "Gyroscope" },
@@ -81,8 +81,78 @@ const RAW_ALBUMS = [
       { title: "Clay in Shadows 99" },
     ]
   },
-];
-
+  {
+    id: "colony",
+    title: "Colony",
+    year: 1999,
+    cover: "img/album/Colony.jpg",
+    isCover: false,
+    isSingle: false, 
+    songs: [
+      { title: "Embody The Invisible" },
+      { title: "Ordinary Story" },
+      { title: "Scorn" },
+      { title: "Colony" },
+      { title: "Zombie Inc." },
+      { title: "Pallar Anders Visa" },
+      { title: "Coecered Coexistence" },
+      { title: "Resin" },
+      { title: "Behind Space '99" }, 
+      { title: "Inspid 2000" },
+      { title: "The New Word" }, 
+      { title: "Man Made God" },
+    ]
+  },
+  {
+    id: "clayman",
+    title: "Clayman",
+    year: 2000,
+    cover: "img/album/Clayman",
+    isCover: false,
+    isSingle: false,
+    songs: [
+      { title: "Bullet Ride" },
+      { title: "Pinball Map" },
+      { title: "Only For The Weak" },
+      { title: "...As The Future Repeats Today" },
+      { title: "Square Nothing" },
+      { title: "Clayman" },
+      { title: "Satellites and Astronouts" },
+      { title: "Brush The Dust Away" },
+      { title: "Swim" },
+      { title: "Suburban Me" },
+      { title: "Another Day In Quicksand" },
+      { title: "Strong And Smart" },
+      { title: "World Of Promises" },
+    ]
+  },
+  {
+    id: "rereoute-to-remain",
+    title: "Reroute To Remain",
+    year: 2002,
+    cover: "img/album/RerouteToRemain",
+    isCover: false,
+    isSingle: false,
+    songs: [
+      { title: "Reroute To Remain" },
+      { title: "System" },
+      { title: "Drifter" },
+      { title: "Trigger" },
+      { title: "Cloud Connected" },
+      { title: "Transparent" },
+      { title: "Dawn Of A New Day" },
+      { title: "Egonomic" },
+      { title: "Minus" },
+      { title: "Dismiss The Cynics" },
+      { title: "Free Fall" },
+      { title: "Dark Signs" },
+      { title: "Metaphor" },
+      { title: "Black And White" },
+      { title: "Watch Them Feed" },
+      { title: "Land Of Confusion" },
+    ]
+  },
+        
 
 
 // Array.sort is stable, so albums sharing a year preserve their RAW_ALBUMS order.
