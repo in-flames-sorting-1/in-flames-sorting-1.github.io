@@ -62,8 +62,31 @@ const RAW_ALBUMS = [
     ],
   },
 ];
-    
-// NO WORK IS NECESSARY BELOW THIS LINE
+  {
+  id: "whoracle",
+  title: "Whoracle",
+  year: 1997,
+  cover: "img/album/Whoracle.jpg
+  isCover: false,
+  isSingle: false, 
+  songs: [
+      { title: "Jotun" },
+      { title: "Food For The Gods" },
+      { title: "Gyroscope" },
+      { title: "Dialouge With The Stars" },
+      { title: "The Hive" },
+      { title: "Jester Script Transfigured" },
+      { title: "Morphing Into Primal" },
+      { title: "Worlds Withn The Margin" },
+      { title: "Episode 666" }, 
+      { title: "Everything Counts" },
+      { title: "Whoracle" }, 
+      { title: "Clay in Shadows 99" },
+    ],
+  },
+];
+
+
 
 // Array.sort is stable, so albums sharing a year preserve their RAW_ALBUMS order.
 export const ALBUMS = [...RAW_ALBUMS].sort((a, b) => a.year - b.year);
