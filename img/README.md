@@ -1,6 +1,6 @@
 # Image assets
 
-These files are NOT shipped by the template — drop the band's own art here after generation.
+These files are NOT shipped by the template, drop the band's own art here after generation.
 
 Required files at this directory's root:
 

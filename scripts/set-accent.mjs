@@ -10,7 +10,7 @@
 //
 // Everything else (--accent-hover, --accent-bg, --accent-glow, --accent-tint, etc.)
 // is derived from --accent at runtime via color-mix(), so this script doesn't need
-// to know the palette structure — one substitution re-themes the whole site.
+// to know the palette structure, one substitution re-themes the whole site.
 //
 // Safe to run as many times as you want while iterating on a color.
 
