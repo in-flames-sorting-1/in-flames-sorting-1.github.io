@@ -15,15 +15,14 @@ const RAW_ALBUMS = [
       { title: "Hårgalåten" },
       { title: "In Flames" }, 
       { title: "Upon An Oaken Throne" },
-      { title: "Clad In Shadows", }
-    ],
+      { title: "Clad In Shadows" },
+    ]
   },
-];
   {
-    id: "subterranean"
-    title: "Subterranean"
+    id: "subterranean",
+    title: "Subterranean",
     year: 1995,
-    cover: "img/album/Subterranean.jpg"
+    cover: "img/album/Subterranean.jpg",
     isCover: false,
     isSingle: false,
     song: [
@@ -31,19 +30,18 @@ const RAW_ALBUMS = [
       { title: "Ever Dying" },
       { title: "Subterranean" },
       { title: "Timeless" },
-      { title: "Biosphere" }, 
+      { title: "Biosphere" },
       { title: "Dead Eternity" },
       { title: "The Inborn Lifeless" },
-      { title: "Eye Of The Beholder" }, 
+      { title: "Eye Of The Beholder" },
       { title: "Murders In The Rue Morgue" },
-    ],
+    ]
   },
-];
   {
   id: "the-jester-race",
   title: "The Jester Race",
   year: 1996,
-  cover: "img/album/TheJesterRace.jpg"
+  cover: "img/album/TheJesterRace.jpg",
   isCover: false,
   isSingle: false,
   songs: [
@@ -59,14 +57,13 @@ const RAW_ALBUMS = [
       { title: "Dead God In Me" },
       { title: "Goliaths Disarm Their Davids" },
       { title: "Acoustic Medley" },
-    ],
+    ]
   },
-];
   {
   id: "whoracle",
   title: "Whoracle",
   year: 1997,
-  cover: "img/album/Whoracle.jpg
+  cover: "img/album/Whoracle.jpg",
   isCover: false,
   isSingle: false, 
   songs: [
@@ -82,7 +79,7 @@ const RAW_ALBUMS = [
       { title: "Everything Counts" },
       { title: "Whoracle" }, 
       { title: "Clay in Shadows 99" },
-    ],
+    ]
   },
 ];
 
